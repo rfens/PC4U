@@ -85,7 +85,8 @@ span {
 }
 
 #imgshop{
-
+  height: 240px;
+  width: 240px;
 }
 
 /*producthardware.html*/
@@ -98,5 +99,16 @@ span {
 }
 
 .producthardware{
-  background: #E0EFDA
+  background: #E0EFDA;
 }
+
+/*productsoftware.html*/
+
+#imgproductsoftware{
+  height: 240px;
+  width: 240px;
+  float: left;
+}
+
+.productsoftware{
+  background: #E0EFDA;}
