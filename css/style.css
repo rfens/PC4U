@@ -50,6 +50,8 @@
 span {
 	float bottom: left;
 }
+
+/*shop.html*/
 .items p {
 	margin: 5px;
 }
@@ -83,6 +85,12 @@ span {
 }
 
 #imgshop{
-	height: 240px;
-	width: 240px;
+
+}
+
+/*producthardware.html*/
+
+#imgproducthardware{
+    height: 240px;
+  width: 240px;
 }
