@@ -2,11 +2,15 @@
 	margin: 0;
 	padding: 0;
 }
-
+body{
+  background: #ADADADFF;
+}
 .center{
 	max-width: 1000px;
 	margin: 0 auto;
+  background: #C9C9C9FF;
 }
+
 
 .sidenav {
   height: 100%;
@@ -47,6 +51,11 @@
   .sidenav a {font-size: 18px;}
 }
 
+#logopc4u{
+  width: 90px;
+  height: 80px;
+}
+
 span {
 	float bottom: left;
 }
@@ -65,7 +74,7 @@ span {
 	float: left
 }
 .items div {
-	background: #E0EFDA;
+	background: #D8D8D8FF;
 	border: 1px solid #;
 	margin: 20px;
 	display: inline-grid;
