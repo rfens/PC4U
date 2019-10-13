@@ -94,6 +94,8 @@ opacity:0;
 .slideshow img:nth-child(3){animation-delay:10s;}
 .slideshow img:nth-child(4){animation-delay:15s;}
 .slideshow img:nth-child(5){animation-delay:20s;}
+
+
 /*shop.html*/
 #title{
   text-align: center;
@@ -175,4 +177,23 @@ opacity:0;
   text-align: right;
   font-size: 20px;
   text-decoration: underline;
+}
+
+/*repair.html*/
+#repairimg{
+  width: 225px;
+  height: 200px;
+  float: right;
+}
+
+#repairlist{
+  padding-left: 20px;
+}
+
+.repdescription{
+  margin-top: 15px;
+}
+
+.repdescription h3{
+  padding: 3px;
 }
