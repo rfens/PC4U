@@ -60,6 +60,40 @@ span {
 	float bottom: left;
 }
 
+/*Index.html*/
+#slogan{
+  text-align: center;
+}
+/*.........slideshow...........*/
+.slideshow {
+  display: block;
+  width: 50%;
+  height: 50%;
+  vertical-align: middle;
+}
+
+.slideshow img {
+  position: absolute; 
+  animation:slideshow 25s infinite; 
+  opacity:0; 
+  height: 50%;
+  width: 50%;
+}
+
+
+@keyframes slideshow {
+0%{opacity:1;
+} 
+25%{
+opacity:0;
+}
+}
+
+.slideshow img:nth-child(1){animation-delay:0s;}
+.slideshow img:nth-child(2){animation-delay:5s;}
+.slideshow img:nth-child(3){animation-delay:10s;}
+.slideshow img:nth-child(4){animation-delay:15s;}
+.slideshow img:nth-child(5){animation-delay:20s;}
 /*shop.html*/
 #title{
   text-align: center;
