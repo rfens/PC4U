@@ -9,11 +9,15 @@ body{
 	max-width: 1000px;
 	margin: 0 auto;
   background: #C9C9C9FF;
+  margin-top: 100px;
 }
 
 header{
   background: #C9C9C9FF;
-  margin-bottom: 5px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .footer {
