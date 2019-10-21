@@ -11,6 +11,20 @@ body{
   background: #C9C9C9FF;
 }
 
+header{
+  background: #C9C9C9FF;
+  margin-bottom: 5px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #D8D8D8FF;
+   color: #000;
+   text-align: center;
+}
 
 .sidenav {
   height: 100%;
@@ -63,6 +77,10 @@ span {
 /*Index.html*/
 #slogan{
   text-align: center;
+}
+
+#names{
+  text-decoration: underline;
 }
 /*.........slideshow...........*/
 .slideshow {
