@@ -67,17 +67,17 @@ span {
 /*.........slideshow...........*/
 .slideshow {
   display: block;
-  width: 50%;
+  width: 1000px;
   height: 50%;
-  vertical-align: middle;
+  padding-bottom: 400px;
 }
 
 .slideshow img {
   position: absolute; 
   animation:slideshow 25s infinite; 
   opacity:0; 
+  width: 1000px;
   height: 50%;
-  width: 50%;
 }
 
 
